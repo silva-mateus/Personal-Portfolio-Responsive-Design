@@ -131,7 +131,7 @@ header {
   height: 100vh;
 
   .menu-toggler {
-    position: fixed;
+    position: absolute;
     top: 5rem;
     right: 5rem;
     width: 5rem;
@@ -559,6 +559,9 @@ header {
     i {
       font-size: 4rem;
     }
+  }
+  .about .container .profile-img {
+    margin: 0 0 7rem 0;
   }
   .timeline {
     ul {
